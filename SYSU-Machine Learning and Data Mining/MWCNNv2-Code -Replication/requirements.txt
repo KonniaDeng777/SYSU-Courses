@@ -1,0 +1,9 @@
+torch == 1.0.0
+numpy
+scikit-image
+imageio
+matplotlib
+tqdm
+h5py
+scipy == 1.2.0
+torchvision == 0.2.2
