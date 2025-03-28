@@ -1,0 +1,37 @@
+UNAME := $(shell uname)
+
+ifeq ($(UNAME), Linux)
+        AS = i686-linux-gnu-as --32
+        LD = i686-linux-gnu-ld
+	#LDFLAGS = -m elf_i386 -x 
+	LDFLAGS = -m elf_i386
+	CC	= i686-linux-gnu-gcc
+	CFLAGS  = -g -m32 -fno-builtin -fno-stack-protector -fomit-frame-pointer -fstrength-reduce #-Wall
+
+	CPP	= i686-linux-gnu-cpp -nostdinc
+	AR	= i686-linux-gnu-ar
+	STRIP = i686-linux-gnu-strip
+	OBJCOPY = i686-linux-gnu-objcopy
+	# we should use -fno-stack-protector with gcc 4.3
+	gcc_version=$(shell ls -l `which i686-linux-gnu-gcc` | tr '-' '\n' | tail -1)
+endif
+
+
+
+ifeq ($(UNAME), Darwin)
+	AS	= i386-elf-as --32
+	LD	= i386-elf-ld
+	#LDFLAGS = -m elf_i386 -x 
+	LDFLAGS = -m elf_i386
+	#CC	= i386-elf-gcc-4.3.2
+	CC	= i386-elf-gcc
+	CFLAGS  = -gdwarf-2 -g3 -m32 -fno-builtin -fno-stack-protector -fomit-frame-pointer -fstrength-reduce #-Wall
+
+	#CPP	= i386-elf-cpp-4.3.2 -nostdinc
+	CPP	= i386-elf-cpp -nostdinc
+	AR	=i386-elf-ar
+	STRIP = i386-elf-strip
+	OBJCOPY = i386-elf-objcopy
+endif
+
+
