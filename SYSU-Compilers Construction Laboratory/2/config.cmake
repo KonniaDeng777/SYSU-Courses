@@ -1,0 +1,2 @@
+set(TASK2_WITH antlr)
+set(TASK2_REVIVE ON)
