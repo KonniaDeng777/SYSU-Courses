@@ -1,9 +1,0 @@
-﻿  Project2.cpp
-D:\Ikonia\数据结构与算法\project\project2算法表达式求值演示\Project2法表达式求值演示\Project2.cpp(186,23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-D:\Ikonia\数据结构与算法\project\project2算法表达式求值演示\Project2法表达式求值演示\Project2.cpp(207,23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-D:\Ikonia\数据结构与算法\project\project2算法表达式求值演示\Project2法表达式求值演示\Project2.cpp(304,28): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-D:\Ikonia\数据结构与算法\project\project2算法表达式求值演示\Project2法表达式求值演示\Project2.cpp(319,21): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
-D:\Ikonia\数据结构与算法\project\project2算法表达式求值演示\Project2法表达式求值演示\Project2.cpp(385,29): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-D:\Ikonia\数据结构与算法\project\project2算法表达式求值演示\Project2法表达式求值演示\Project2.cpp(290): warning C4715: “calculate”: 不是所有的控件路径都返回值
-D:\Ikonia\数据结构与算法\project\project2算法表达式求值演示\Project2法表达式求值演示\Project2.cpp(272): warning C4715: “compare”: 不是所有的控件路径都返回值
-  Project2法表达式求值演示.vcxproj -> D:\Ikonia\数据结构与算法\project\project2算法表达式求值演示\Project2法表达式求值演示\x64\Debug\Project2法表达式求值演示.exe
