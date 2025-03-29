@@ -1,4 +1,4 @@
-# Compilers Construction
+# YatCC: SYSU Compiler Course
 
 source code link: https://github.com/arcsysu/YatCC
 
