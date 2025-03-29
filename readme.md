@@ -1,6 +1,6 @@
 # SYSU Courses
 
-My Projects done in SYSU
+My projects/experiments done in SYSU
 
 ## Course Lists
 
