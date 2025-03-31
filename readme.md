@@ -19,7 +19,7 @@ My projects/experiments done in SYSU
 | 11   | Operation System Experiments      |
 | 12   | Optimization Theory               |
 | 13   | Parallel Programming              |
-| 14   | Priciples of Communication        |
+| 14   | Principles of Communication        |
 | 15   | Reinforcement Learning            |
 | 16   | Signals and Systems               |
 | 17   | Software Engineering              |
